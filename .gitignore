@@ -1,7 +1,13 @@
 *.py[cod]
 
+# Evil emacs
+*~
+
 # C extensions
 *.so
+
+# Virtual Env
+.venv/
 
 # Packages
 *.egg
