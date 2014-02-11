@@ -10,20 +10,20 @@
 .venv/
 
 # Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-__pycache__
+# *.egg
+# *.egg-info
+# dist
+# build
+# eggs
+# parts
+# bin
+# var
+# sdist
+# develop-eggs
+# .installed.cfg
+# lib
+# lib64
+# __pycache__
 
 # Installer logs
 pip-log.txt
@@ -40,3 +40,4 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+keys.py
