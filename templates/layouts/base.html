@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>{% block title %}Cauzilla{% endblock %}</title>
+        <style type="text/css">
+            .container {
+            width: 3200px;
+            border: 1px red;
+            }
+
+            .pane {
+            width: 640px;
+            border-right: 1px blue;
+            min-height: 920px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="pane settings">{% block settings_pane %}{% endblock %}</div>
+            <div class="pane one">{% block pane1 %}{% endblock %}</div>
+            <div class="pane two">{% block pane2 %}{% endblock %}</div>
+            <div class="pane three">{% block pane3 %}{% endblock %}</div>
+            <div class="pane four">{% block pane4 %}{% endblock %}</div>
+            <div class="pane five">{% block pane5 %}{% endblock %}</div>
+        </div>
+    </body>
+</html>
